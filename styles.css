@@ -51,8 +51,7 @@
       text-align: left;
     }
   }
-  
-  
+   
   
   body
   {
@@ -74,7 +73,32 @@
   {
       line-height: 10px;
    }
-   
+@media (max-width: 499px)
+{
+  .early_img
+  {
+    display:block;margin-left:auto;margin-right:auto;padding:10px;
+    width: 85%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 699px)
+{
+  .early_img
+  {
+    display:block;margin-left:auto;margin-right:auto;padding:10px;
+    width: 75%;
+  }
+}
+
+@media (min-width: 700px)
+{
+  .early_img
+  {
+    width: 55%;
+    display:block;margin-left:auto;margin-right:auto;padding:10px;
+  }
+} 
   .txt
   {
       font-family:Berlin Sans FB;
